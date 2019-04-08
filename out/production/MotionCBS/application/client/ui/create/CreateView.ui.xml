@@ -1,0 +1,46 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <g:HTMLPanel styleName="content-container content-center">
+
+        <g:HTMLPanel styleName="login-content">
+
+            <g:Label text="Opret dig her" />
+
+                <g:TextBox styleName="textInput" ui:field="fname" />
+
+
+                <g:TextBox styleName="textInput" ui:field="lname"/>
+
+                <g:TextBox styleName="textInput" ui:field="email"/>
+
+                <g:TextBox styleName="textInput" ui:field="password"/>
+
+                <g:TextBox styleName="textInput" ui:field="address"/>
+
+                <g:TextBox styleName="textInput" ui:field="phoneNumber"/>
+
+                <g:TextBox styleName="textInput" ui:field="age"/>
+
+            <g:FlowPanel>
+                <g:Label text="Gender"/>
+                <g:RadioButton name="genderSelection" text="Male" ui:field="genderMaleBtn"/>
+                <g:RadioButton name="genderSelection" text="Female" ui:field="genderFemaleBtn"/>
+            </g:FlowPanel>
+
+            <g:FlowPanel>
+                <g:Label text="Medlemstype"/>
+                <g:RadioButton name="MemberSelection" text="Guld" ui:field="memberGold"/>
+                <g:RadioButton name="MemberSelection" text="Sølv" ui:field="memberSilver"/>
+                <g:RadioButton name="MemberSelection" text="Bronze" ui:field="memberBronze"/>
+            </g:FlowPanel>
+
+            <g:Label text="SAMLET PRIS: 0,-" />
+            <g:Button styleName="btn-big" text="OPRET MIG NU" ui:field="createUserBtn" />
+
+            <g:Label text="Den almene pris for medlemsskabet starter efter første måned" />
+
+        </g:HTMLPanel>
+
+    </g:HTMLPanel>
+</ui:UiBinder>

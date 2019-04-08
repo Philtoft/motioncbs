@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="KlientServerSample:GWT">
+    <output-path>$PROJECT_DIR$/out/artifacts/KlientServerSample_GWT</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="TempApp_Client_Server/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

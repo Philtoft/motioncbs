@@ -1,0 +1,211 @@
+/** Add css rules here for your application. */
+/** Add css rules here for your application. */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.link {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.textInput {
+    padding: 15px;
+    width: 100%;
+    color: #000;
+    border: none;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.rightMenu {
+    display: flex;
+    min-width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    color: #fff;
+}
+
+.rightMenu div {
+    cursor: pointer;
+}
+
+.content-container {
+    width: 100%;
+    height: 100vh;
+    background: url("https://augustdesigns.dk/cbseksamen/gym-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+    width: 30%;
+    min-width: 300px;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+    margin: 0 auto;
+}
+
+.login-content-center {
+    background: #fff;
+    padding: 15px;
+}
+
+.logo {
+    color: #fff;
+    align-self: center;
+}
+
+.north {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #000;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.adminNorth {
+    align-items: center;
+    font-size: 19px;
+    padding: 10px 25px;
+}
+
+.adminNorth div:last-child {
+    text-transform: uppercase;
+}
+
+.south {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #000;
+}
+
+.west-menu {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.footer {
+    margin-right: 20px;
+    color: white;
+    font-style: italic;
+}
+.menu {
+    padding: 10px;
+    background-color: #E6E8EC;
+}
+
+.title {
+
+}
+
+button.btn-small {
+    background-color: rgb(255,0,0);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button.btn-small:hover {
+    background-color: rgb(200,0,0);
+}
+
+button.btn-big {
+    background-color: rgb(255,0,0);
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    font-size: 21px;
+    transition: .3s;
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 250px;
+    width: 100%;
+}
+
+button.btn-big:hover {
+    background-color: rgb(200,0,0);
+}
+
+button.btn-menu {
+    width: 200px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+
+.headline {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+    color: black;
+    font-size: 18px;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.btn-wrapper button {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    background: white;
+    color: black;
+}
+
+.center-content {
+    height: 100%;
+    background: white;
+}

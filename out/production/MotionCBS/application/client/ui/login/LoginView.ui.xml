@@ -1,0 +1,17 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <g:HTMLPanel styleName="content-container content-center">
+
+        <g:VerticalPanel horizontalAlignment="ALIGN_CENTER" styleName="login-content">
+
+            <g:Label text="Log ind her" />
+            <g:TextBox styleName="textInput" ui:field="emailTxtBox" />
+            <g:PasswordTextBox styleName="textInput" ui:field="passwordTxtBox" />
+            <g:Button styleName="btn-big" text="Login" ui:field="loginBtn" />
+            <g:Label text="Glemt adgangskode" ui:field="forgotPassword" styleName="link" />
+
+        </g:VerticalPanel>
+
+    </g:HTMLPanel>
+</ui:UiBinder>
