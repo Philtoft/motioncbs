@@ -14,4 +14,9 @@ public class AdminCreateMembersView extends Composite {
     public AdminCreateMembersView() {
         initWidget(ourUiBinder.createAndBindUi(this));
     }
+
+    public void addClickHandler() {
+
+    }
+
 }

@@ -21,7 +21,7 @@
             <g:west size="15">
                 <g:FlowPanel styleName="west-menu">
                     <g:Button styleName="btn-small btn-menu" text="Medlemmers oplysninger" ui:field="usersBtn"/>
-                    <g:Button styleName="btn-small btn-menu" text="Opret medlem"/>
+                    <g:Button styleName="btn-small btn-menu" text="Opret medlem" ui:field="newUser"/>
                 </g:FlowPanel>
             </g:west>
 

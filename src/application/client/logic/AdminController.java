@@ -2,6 +2,7 @@ package application.client.logic;
 
 import application.client.rpc.RPCServiceAsync;
 import application.client.ui.ContentPanel;
+import application.client.ui.admin.adminCreateMembersView.AdminCreateMembersView;
 import application.client.ui.admin.adminMainView.AdminMainView;
 import application.shared.User;
 import com.google.gwt.user.client.Window;

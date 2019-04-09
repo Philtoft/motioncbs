@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c10314d-4ca1-4c09-bd80-e64c24d1489a" name="Default" comment="" />
+    <list default="true" id="7c10314d-4ca1-4c09-bd80-e64c24d1489a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/logic/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/logic/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/logic/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/logic/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +25,75 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/client/logic/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="84" column="65" lean-forward="true" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
+            <state relative-caret-position="414">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#bindHandlers#0;class#MainController#0" />
                 <element signature="class#ForgotPasswordClickHandler#0;class#MainController#0" />
                 <element signature="class#CreateAccount#0;class#MainController#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/war/MySampleApplication.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="209" column="22" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#loadUser#0;class#AdminController#0" />
+                <element signature="method#loadTables#0;class#AdminController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="98" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -75,13 +144,11 @@
         <option value="$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/create/CreateView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/allMembersView/allMembersView.ui.xml" />
-        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminFirstView/AdminFirstView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminFirstView/AdminFirstView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/allMembersView/AllMembersView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/shared/User.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/allMembersView/AllMembersView.java" />
-        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml" />
         <option value="$PROJECT_DIR$/war/MySampleApplication.css" />
@@ -89,14 +156,18 @@
         <option value="$PROJECT_DIR$/src/application/client/rpc/RPCService.java" />
         <option value="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/ContentPanel.java" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java" />
         <option value="$PROJECT_DIR$/src/application/client/logic/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" />
         <option value="$PROJECT_DIR$/src/application/client/logic/MainController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -107,7 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +245,16 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="adminCreateMembersView" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motioncbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motioncbs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="adminMainView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,15 +266,6 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="adminMembersView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="motioncbs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="motioncbs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="guest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="motioncbs" type="b2602c69:ProjectViewProjectNode" />
@@ -218,7 +290,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,12 +539,14 @@
       <workItem from="1554586577562" duration="2574000" />
       <workItem from="1554624496939" duration="7545000" />
       <workItem from="1554632931286" duration="12072000" />
-      <workItem from="1554732831794" duration="5777000" />
+      <workItem from="1554732831794" duration="6465000" />
+      <workItem from="1554793748751" duration="3357000" />
+      <workItem from="1554799380018" duration="3909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91134000" />
+    <option name="totallyTimeSpent" value="99088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,7 +561,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49750414" visible="true" weight="0.23557048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49750414" visible="true" weight="0.26510066" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -505,7 +579,7 @@
       <window_info anchor="bottom" id="Application Servers" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50408995" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49591002" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23324022" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49860334" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -681,19 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/goldMembersView/GoldMembersView.java" />
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/guest/GuestView.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -746,36 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/war/MySampleApplication.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="209" column="22" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -793,20 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,13 +864,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/logic/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="84" column="65" lean-forward="true" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
+        <state>
+          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#bindHandlers#0;class#MainController#0" />
+            <element signature="method#loadUser#0;class#AdminController#0" />
+            <element signature="method#loadTables#0;class#AdminController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="98" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war/MySampleApplication.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="209" column="22" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/logic/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="class#ForgotPasswordClickHandler#0;class#MainController#0" />
             <element signature="class#CreateAccount#0;class#MainController#0" />
           </folding>

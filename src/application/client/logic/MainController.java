@@ -38,7 +38,7 @@ public class MainController {
 
     }
 
-    public void bindHandlers() {
+    public void bindHandlers()  {
         contentPanel.getGuestView().addClickHandlers(new GuestLoginClickHandler());
         contentPanel.getLoginView().getLoginBtn().addClickHandler(new LoginClickHandler());
         contentPanel.getLoginView().getForgotPassword().addClickHandler(new ForgotPasswordClickHandler());
