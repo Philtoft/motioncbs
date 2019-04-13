@@ -5,6 +5,7 @@ import com.google.gwt.cell.client.ActionCell;
 import com.google.gwt.cell.client.TextCell;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.Style;
+import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.cellview.client.Column;
@@ -85,7 +86,7 @@ public class AdminMembersView extends Composite {
         });
 
         dataGrid.addColumn(nameColumn, "Navn");
-        dataGrid.setColumnWidth(nameColumn, 5, Style.Unit.PX);
+        dataGrid.setColumnWidth(nameColumn, 3, Style.Unit.PX);
 
         // Email
         Column<User, String> emailColumn = new Column<User, String>(new TextCell()) {
@@ -96,7 +97,7 @@ public class AdminMembersView extends Composite {
         };
 
         dataGrid.addColumn(emailColumn, "Email");
-        dataGrid.setColumnWidth(emailColumn, 5, Style.Unit.PX);
+        dataGrid.setColumnWidth(emailColumn, 3, Style.Unit.PX);
 
         // Password
         Column<User, String> passwordColumn = new Column<User, String>(new TextCell()) {
@@ -107,18 +108,23 @@ public class AdminMembersView extends Composite {
         };
 
         dataGrid.addColumn(passwordColumn, "Password");
-        dataGrid.setColumnWidth(passwordColumn, 5, Style.Unit.PX);
+        dataGrid.setColumnWidth(passwordColumn, 2, Style.Unit.PX);
 
         // Køn
         Column<User, String> gender = new Column<User, String>(new TextCell()) {
             @Override
             public String getValue(User user) {
-                return user.getGender();
+                if (user.getGender() == "m") {
+                    return "Mand";
+                } else if (user.getGender() == "f") {
+                    return "Kvinde";
+                }
+                return null;
             }
         };
 
         dataGrid.addColumn(gender, "Køn");
-        dataGrid.setColumnWidth(gender, 5, Style.Unit.PX);
+        dataGrid.setColumnWidth(gender, 1, Style.Unit.PX);
 
         // Adresse
         Column<User, String> address = new Column<User, String>(new TextCell()) {
@@ -129,7 +135,18 @@ public class AdminMembersView extends Composite {
         };
 
         dataGrid.addColumn(address, "Adresse");
-        dataGrid.setColumnWidth(address, 5, Style.Unit.PX);
+        dataGrid.setColumnWidth(address, 2, Style.Unit.PX);
+
+        // Phone number
+        Column<User, String> phoneNumber = new Column<User, String>(new TextCell()) {
+            @Override
+            public String getValue(User user) {
+                return user.getPhoneNumber();
+            }
+        };
+
+        dataGrid.addColumn(phoneNumber, "Tlf. nr");
+        dataGrid.setColumnWidth(phoneNumber, 2, Style.Unit.PX);
 
         // Medlemstype
         Column<User, String> memberType = new Column<User, String>(new TextCell()) {
@@ -179,6 +196,51 @@ public class AdminMembersView extends Composite {
             }
         });
 
+        dataGrid.addColumn(memberType, "Medlemstype");
+        dataGrid.setColumnWidth(memberType, 2, Style.Unit.PX);
+
+        // Alder
+        Column<User, String> age = new Column<User, String>(new TextCell()) {
+            @Override
+            public String getValue(User user) {
+                return user.getAge();
+            }
+        };
+
+        dataGrid.addColumn(age, "Alder");
+        dataGrid.setColumnWidth(age, 2, Style.Unit.PX);
+
+
+        // Delete users
+
+        Column<User, User> deleteUserColumn = new Column<User, User>(new ActionCell<User>("Slet", actionCell)) {
+            @Override
+            public User getValue(User user) {
+                return user;
+            }
+        };
+
+//        ActionCell<User> deleteUserCell = new ActionCell<User>("Delete user", actionCell);
+//        Column<User, User> joinColumn = new Column<User, User>(deleteUserCell) {
+//            @Override
+//            public User getValue(User user) {
+//                return user;
+//            }
+//        };
+
+        dataGrid.addColumn(deleteUserColumn, "Delete");
+        dataGrid.setColumnWidth(deleteUserColumn, 3, Style.Unit.PX);
+
+    }
+
+    /**
+     *
+     * Method that is used to add the handler from the logic to the Delete button in the table
+     *
+     * @param actionCell
+     */
+    public void addClickHandler(ActionCell.Delegate<User> actionCell) {
+        this.actionCell = actionCell;
     }
 
 }

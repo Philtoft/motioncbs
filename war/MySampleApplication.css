@@ -22,6 +22,7 @@ body {
     width: 100%;
     color: #000;
     border: none;
+    border-radius: 5px;
     background: #fff;
     margin: 10px auto;
 }
@@ -65,15 +66,20 @@ body {
     text-align: center;
 }
 
+.center-content {
+    height: 100%;
+    background: white;
+    padding-left: 15px;
+}
+
 .login-content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-height: 200px;
-    width: 30%;
-    min-width: 300px;
+    width: 350px;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     background: rgba(0,0,0,0.4);
     margin: 0 auto;
 }
@@ -144,6 +150,7 @@ button.btn-small {
     align-self: center;
     cursor: pointer;
     transition: .3s;
+    border-radius: 5px;
 }
 
 button.btn-small:hover {
@@ -161,6 +168,7 @@ button.btn-big {
     margin: 0 auto;
     max-width: 250px;
     width: 100%;
+    border-radius: 5px;
 }
 
 button.btn-big:hover {
@@ -176,7 +184,7 @@ button.btn-menu {
 
 .headline {
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding: 15px 0;
     border-bottom: 1px solid #000;
     color: black;
     font-size: 18px;
@@ -200,12 +208,6 @@ button.btn-menu {
     justify-content: center;
 }
 
-table {
-    background: white;
-    color: black;
-}
-
-.center-content {
-    height: 100%;
-    background: white;
+.com-google-gwt-user-cellview-client-DataGrid-Style-dataGridWidget div:last-child {
+    height: 100% !important;
 }

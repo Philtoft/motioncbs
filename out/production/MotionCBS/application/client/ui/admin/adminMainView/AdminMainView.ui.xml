@@ -8,7 +8,6 @@
             <g:north size="5">
                 <g:HTMLPanel styleName="north adminNorth">
                     <g:Label text="MotionCBS"/>
-                    <g:Label text="Log ud" ui:field="logOut" />
                 </g:HTMLPanel>
             </g:north>
 
@@ -20,8 +19,10 @@
 
             <g:west size="15">
                 <g:FlowPanel styleName="west-menu">
-                    <g:Button styleName="btn-small btn-menu" text="Medlemmers oplysninger" ui:field="usersBtn"/>
-                    <g:Button styleName="btn-small btn-menu" text="Opret medlem" ui:field="newUser"/>
+                    <g:Button styleName="btn-small btn-menu" text="Medlemsstatistik" ui:field="forsideBtn"/>
+                    <g:Button styleName="btn-small btn-menu" text="Medlemmers oplysninger" ui:field="membersBtn"/>
+                    <g:Button styleName="btn-small btn-menu" text="Opret medlem" ui:field="newUserBtn"/>
+                    <g:Button styleName="btn-small btn-menu" text="Log ud" ui:field="logOutBtn"/>
                 </g:FlowPanel>
             </g:west>
 

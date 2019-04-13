@@ -14,4 +14,6 @@ public interface RPCServiceAsync {
 
     void getUsers(int userId, AsyncCallback<ArrayList<User>> asyncCallback) throws IllegalArgumentException;
 
+    void deleteUser(User user, AsyncCallback<Boolean> asyncCallback) throws IllegalArgumentException;
+
 }

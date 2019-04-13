@@ -3,7 +3,7 @@
 
     <g:HTMLPanel styleName="content-container content-center">
 
-        <g:VerticalPanel horizontalAlignment="ALIGN_CENTER" styleName="login-content">
+        <g:HTMLPanel styleName="login-content">
 
             <g:Label text="Log ind her" />
             <g:TextBox styleName="textInput" ui:field="emailTxtBox" />
@@ -11,7 +11,7 @@
             <g:Button styleName="btn-big" text="Login" ui:field="loginBtn" />
             <g:Label text="Glemt adgangskode" ui:field="forgotPassword" styleName="link" />
 
-        </g:VerticalPanel>
+        </g:HTMLPanel>
 
     </g:HTMLPanel>
 </ui:UiBinder>

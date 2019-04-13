@@ -85,7 +85,7 @@ public class RPCServiceImpl extends RemoteServiceServlet implements RPCService {
     @Override
     public boolean createUser(User user) throws IllegalArgumentException {
         try {
-            PreparedStatement createUser = connection.prepareStatement("INSERT INTO `members` (`id`, `fname`, `lname`, `email`, `password`, `zipCode`, `phoneNumer`, `gender`, `age`, `membertype_id`, `signup_date`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)");
+            PreparedStatement createUser = connection.prepareStatement("INSERT INTO `members` (`id`, `fname`, `lname`, `email`, `password`, `zipCode`, `phoneNumber`, `gender`, `age`, `membertype_id`, `signup_date`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)");
 
             createUser.setString(1, user.getFname());
             createUser.setString(2, user.getLname());
@@ -102,7 +102,9 @@ public class RPCServiceImpl extends RemoteServiceServlet implements RPCService {
             if (rowsAffected == 1) return true;
 
         } catch (SQLException e) {
+
             e.printStackTrace();
+
         }
         return false;
     }
@@ -151,6 +153,28 @@ public class RPCServiceImpl extends RemoteServiceServlet implements RPCService {
         }
 
         return users;
+    }
+
+    @Override
+    public boolean deleteUser(User user) throws IllegalArgumentException {
+        try {
+            /*
+             * This statement is deleting a row/rows in the users table by id. There should only be on user with a id
+             * since this should be unique
+             */
+            PreparedStatement deleteUser = connection.prepareStatement("DELETE FROM members WHERE id = ?");
+
+            deleteUser.setInt(1, user.getId());
+
+            int rowsAffected = deleteUser.executeUpdate();
+
+            if (rowsAffected == 1) {
+                return true;
+            }
+        } catch (SQLException sqlException) {
+            sqlException.printStackTrace();
+        }
+        return false;
     }
 
 }

@@ -2,11 +2,19 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
              xmlns:c="urn:import:com.google.gwt.user.cellview.client">
 
+    <ui:style>
+        .table-content {
+            color: black;
+        }
+    </ui:style>
+
     <g:HTMLPanel styleName="center-content">
+
+        <g:Label styleName="headline" text="Oplysninger om medlemmer" />
 
         <g:DockLayoutPanel unit="EM" width="100%" height="90%">
 
-            <g:center>
+            <g:center styleName="{style.table-content}">
                 <c:DataGrid ui:field='dataGrid' visible="true" />
             </g:center>
 

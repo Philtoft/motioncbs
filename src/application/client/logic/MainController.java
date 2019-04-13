@@ -17,6 +17,8 @@ import java.util.List;
 public class MainController {
 
     private User currentUser;
+    // If already logged in as admin, the users won't be loaded again
+    private boolean loggedIn;
 
     private ContentPanel contentPanel;
     private RPCServiceAsync rpcService;
@@ -29,6 +31,7 @@ public class MainController {
 
         this.contentPanel = contentPanel;
         this.rpcService = rpcService;
+        this.loggedIn = false;
 
         this.adminController = new AdminController(contentPanel, rpcService);
 
@@ -80,12 +83,16 @@ public class MainController {
                     } else {
                         contentPanel.getLoginView().clearTextBoxFields();
 
+                        // If the users aren't admin
                         if (user.getMembertypeId() != 4) {
                             contentPanel.changeView(contentPanel.getUserMainView());
-                        } else if (user.getMembertypeId() == 4) {
-                             // Log ind som administrator
-                            Window.alert("Du logger ind som admin");
-                            adminController.loadUser(user);
+                        } // Else if the users are admin
+                        else if (user.getMembertypeId() == 4) {
+                            // If first time logged ind. Load users
+                            if (!loggedIn) {
+                                adminController.loadUser(user);
+                                loggedIn = true;
+                            }
                             contentPanel.changeView(contentPanel.getAdminMainView());
                         }
                     }
@@ -132,7 +139,6 @@ public class MainController {
             String zipCode = contentPanel.getCreateView().getAddress().getText();
             String phoneNumber = contentPanel.getCreateView().getPhoneNumber().getText();
             String ageString = contentPanel.getCreateView().getAge().getText();
-            //int age = Integer.parseInt(ageString);
             String gender = "";
             int memberId = 0;
 

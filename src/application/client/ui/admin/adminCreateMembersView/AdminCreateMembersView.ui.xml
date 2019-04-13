@@ -1,12 +1,42 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
 
-    <g:HTMLPanel styleName="login-content">
+    <ui:style>
+        .form {
+            padding-left: 20px;
+        }
+        .form input {
+            width: 50%;
+            border: 1px solid #999;
+            max-width: 450px;
+            margin-right: 15px;
+        }
+        .radiobtn {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: black;
+            justify-content: flex-start;
+            margin: 10px auto;
+        }
+        .radioBtn div {
+            width: 100%;
+        }
 
-        <g:Label text="Opret dig her" />
+        .radioBtn span {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+
+    </ui:style>
+
+    <g:HTMLPanel styleName="center-content {style.form}">
+
+        <g:Label text="Opret medlem" styleName="headline" />
 
         <g:TextBox styleName="textInput" ui:field="fname" />
-
 
         <g:TextBox styleName="textInput" ui:field="lname"/>
 
@@ -20,20 +50,20 @@
 
         <g:TextBox styleName="textInput" ui:field="age"/>
 
-        <g:FlowPanel>
+        <g:FlowPanel styleName="{style.radiobtn}">
             <g:Label text="Gender"/>
             <g:RadioButton name="genderSelection" text="Male" ui:field="genderMaleBtn"/>
             <g:RadioButton name="genderSelection" text="Female" ui:field="genderFemaleBtn"/>
         </g:FlowPanel>
 
-        <g:FlowPanel>
+        <g:FlowPanel styleName="{style.radiobtn}">
             <g:Label text="Medlemstype"/>
             <g:RadioButton name="MemberSelection" text="Guld" ui:field="memberGold"/>
             <g:RadioButton name="MemberSelection" text="Sølv" ui:field="memberSilver"/>
             <g:RadioButton name="MemberSelection" text="Bronze" ui:field="memberBronze"/>
         </g:FlowPanel>
 
-        <g:Button styleName="btn-big" text="OPRET MIG NU" ui:field="createUserBtn" />
+        <g:Button styleName="btn-small" text="Opret bruger nu" ui:field="createUserBtn" />
 
     </g:HTMLPanel>
 </ui:UiBinder>

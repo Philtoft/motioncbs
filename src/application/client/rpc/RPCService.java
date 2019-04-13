@@ -13,7 +13,8 @@ public interface RPCService extends RemoteService {
 
     boolean createUser (User user) throws IllegalArgumentException;
 
-    ArrayList<User> getUsers (int userId)
-            throws IllegalArgumentException;
+    ArrayList<User> getUsers (int userId) throws IllegalArgumentException;
+
+    boolean deleteUser(User user) throws IllegalArgumentException;
 
 }

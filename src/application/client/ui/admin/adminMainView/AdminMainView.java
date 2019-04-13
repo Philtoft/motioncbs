@@ -2,6 +2,7 @@ package application.client.ui.admin.adminMainView;
 
 import application.client.ui.admin.adminCreateMembersView.AdminCreateMembersView;
 import application.client.ui.admin.adminMembersView.AdminMembersView;
+import application.client.ui.admin.adminStatisticsView.AdminStatisticsView;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -13,12 +14,16 @@ public class AdminMainView extends Composite {
 
     private AdminMembersView adminMembersView;
     private AdminCreateMembersView adminCreateMembersView;
+    private AdminStatisticsView adminStatisticsView;
 
     @UiField
-    Label logOut;
+    Button logOutBtn;
 
     @UiField
-    Button newUser;
+    Button newUserBtn;
+
+    @UiField
+    Button membersBtn;
 
     @UiField
     DeckLayoutPanel contentPanel1;
@@ -32,15 +37,24 @@ public class AdminMainView extends Composite {
         adminCreateMembersView = new AdminCreateMembersView();
         contentPanel1.add(adminCreateMembersView);
 
-        contentPanel1.showWidget(adminMembersView);
+        adminStatisticsView = new AdminStatisticsView();
+        contentPanel1.add(adminStatisticsView);
+
+        contentPanel1.showWidget(adminStatisticsView);
 
     }
 
     interface AdminMainViewUiBinder extends UiBinder<HTMLPanel, AdminMainView> {
     }
 
-    public AdminMembersView getAdminMembersView() {
-        return adminMembersView;
+    public void addClickHandler(ClickHandler clickHandler) {
+        logOutBtn.addClickHandler(clickHandler);
+        newUserBtn.addClickHandler(clickHandler);
+        membersBtn.addClickHandler(clickHandler);
+    }
+
+    public void changeView(Widget panel) {
+        contentPanel1.showWidget(panel);
     }
 
     /**
@@ -49,11 +63,24 @@ public class AdminMainView extends Composite {
      *
      * @return
      */
-    public Button getNewUser() {
-        return newUser;
+    public Button getNewUserBtn() {
+        return newUserBtn;
+    }
+
+    public Button getLogOutBtn() {
+        return logOutBtn;
+    }
+
+    public Button getMembersBtn() {
+        return membersBtn;
     }
 
     public AdminCreateMembersView getAdminCreateMembersView() {
         return adminCreateMembersView;
     }
+
+    public AdminMembersView getAdminMembersView() {
+        return adminMembersView;
+    }
+
 }
