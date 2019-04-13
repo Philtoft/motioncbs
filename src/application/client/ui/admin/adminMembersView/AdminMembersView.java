@@ -213,7 +213,7 @@ public class AdminMembersView extends Composite {
 
         // Delete users
 
-        Column<User, User> deleteUserColumn = new Column<User, User>(new ActionCell<User>("Slet", actionCell)) {
+        Column<User, User> deleteUserColumn = new Column<User, User>(new ActionCell<User>("Delete", actionCell)) {
             @Override
             public User getValue(User user) {
                 return user;

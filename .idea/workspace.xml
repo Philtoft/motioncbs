@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c10314d-4ca1-4c09-bd80-e64c24d1489a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$CreateAccount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$CreateAccount$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$CreateAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$CreateAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$ForgotPasswordClickHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$ForgotPasswordClickHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$GuestLoginClickHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$GuestLoginClickHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$LoginClickHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$LoginClickHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$LoginClickHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$LoginClickHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$SignUpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/rpc/RPCService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/rpc/RPCService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/rpc/RPCServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/rpc/RPCServiceAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMainView/AdminMainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMainView/AdminMainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/login/LoginView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/login/LoginView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/server/RPCServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/server/RPCServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/logic/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/logic/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/logic/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/logic/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/rpc/RPCService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/rpc/RPCService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/rpc/RPCServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/rpc/RPCServiceAsync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/login/LoginView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/login/LoginView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/MySampleApplication.css" beforeDir="false" afterPath="$PROJECT_DIR$/war/MySampleApplication.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+            <state relative-caret-position="236">
+              <caret line="215" column="97" selection-start-line="215" selection-start-column="97" selection-end-line="215" selection-end-column="97" />
               <folding>
                 <element signature="method#AdminMembersView#0;class#AdminMembersView#0" />
-                <element signature="method#initTableColumns#0;class#AdminMembersView#0" />
                 <element signature="e#2491#2492#0" expanded="true" />
                 <element signature="e#2566#2567#0" expanded="true" />
                 <element signature="e#6806#6818#0" expanded="true" />
@@ -509,12 +469,12 @@
       <workItem from="1555062514991" duration="1549000" />
       <workItem from="1555079519672" duration="2047000" />
       <workItem from="1555149655698" duration="34000" />
-      <workItem from="1555160763386" duration="7165000" />
+      <workItem from="1555160763386" duration="7256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137173000" />
+    <option name="totallyTimeSpent" value="137264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,11 +862,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+        <state relative-caret-position="236">
+          <caret line="215" column="97" selection-start-line="215" selection-start-column="97" selection-end-line="215" selection-end-column="97" />
           <folding>
             <element signature="method#AdminMembersView#0;class#AdminMembersView#0" />
-            <element signature="method#initTableColumns#0;class#AdminMembersView#0" />
             <element signature="e#2491#2492#0" expanded="true" />
             <element signature="e#2566#2567#0" expanded="true" />
             <element signature="e#6806#6818#0" expanded="true" />
