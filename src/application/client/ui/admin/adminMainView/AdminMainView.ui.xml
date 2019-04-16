@@ -19,7 +19,7 @@
 
             <g:west size="15">
                 <g:FlowPanel styleName="west-menu">
-                    <g:Button styleName="btn-small btn-menu" text="Medlemsstatistik" ui:field="forsideBtn"/>
+                    <g:Button styleName="btn-small btn-menu" text="Medlemsstatistik" ui:field="statsBtn"/>
                     <g:Button styleName="btn-small btn-menu" text="Medlemmers oplysninger" ui:field="membersBtn"/>
                     <g:Button styleName="btn-small btn-menu" text="Opret medlem" ui:field="newUserBtn"/>
                     <g:Button styleName="btn-small btn-menu" text="Log ud" ui:field="logOutBtn"/>

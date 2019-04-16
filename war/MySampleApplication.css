@@ -70,6 +70,7 @@ body {
     height: 100%;
     background: white;
     padding-left: 15px;
+    color: black;
 }
 
 .login-content {
@@ -210,4 +211,110 @@ button.btn-menu {
 
 .com-google-gwt-user-cellview-client-DataGrid-Style-dataGridWidget div:last-child {
     height: 100% !important;
+}
+
+/**
+ * Style til
+ */
+
+.center-content-stats {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stats-content-center {
+    color: black !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.stats-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 500px
+}
+
+.stats-wrapper .age {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60px;
+    justify-content: space-between;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 50px
+}
+
+.stats-wrapper .age label {
+    margin: 10px auto;
+}
+
+.stats-wrapper .stats-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.stats-wrapper .stats-content .stats {
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-wrapper .stats-content .stats .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.stats-wrapper .stats-content .stats .row .item {
+    height: 100%;
+    background: #ff0000;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-1 {
+    width: 10%;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-2 {
+    width: 20%;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-3 {
+    width: 30%;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-4 {
+    width: 40%;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-5 {
+    width: 50%;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-6 {
+    width: 80%;
+}
+
+.stats-wrapper .stats-content .stats .row .item.item-7 {
+    width: 90%;
+}
+
+.stats-wrapper .stats-content .percentage {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -17,6 +17,9 @@ public class AdminMainView extends Composite {
     private AdminStatisticsView adminStatisticsView;
 
     @UiField
+    Button statsBtn;
+
+    @UiField
     Button logOutBtn;
 
     @UiField
@@ -51,6 +54,7 @@ public class AdminMainView extends Composite {
         logOutBtn.addClickHandler(clickHandler);
         newUserBtn.addClickHandler(clickHandler);
         membersBtn.addClickHandler(clickHandler);
+        statsBtn.addClickHandler(clickHandler);
     }
 
     public void changeView(Widget panel) {
@@ -75,12 +79,20 @@ public class AdminMainView extends Composite {
         return membersBtn;
     }
 
+    public Button getStatsBtn() {
+        return statsBtn;
+    }
+
     public AdminCreateMembersView getAdminCreateMembersView() {
         return adminCreateMembersView;
     }
 
     public AdminMembersView getAdminMembersView() {
         return adminMembersView;
+    }
+
+    public AdminStatisticsView getAdminStatisticsView() {
+        return adminStatisticsView;
     }
 
 }

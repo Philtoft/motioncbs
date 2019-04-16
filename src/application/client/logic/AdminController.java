@@ -30,11 +30,13 @@ public class AdminController {
         this.adminMainView = content.getAdminMainView();
         this.rpcServiceAsync = rpcServiceAsync;
 
+        bindHandlers();
+
         listProviderUsers = new ListDataProvider<>();
 
         adminMainView.getAdminMembersView().initUsersTable(listProviderUsers);
 
-        bindHandlers();
+
 
     }
 
@@ -42,6 +44,7 @@ public class AdminController {
         adminMainView.addClickHandler(new MenuClickHandler());
         adminMainView.getAdminMembersView().addClickHandler(new DeleteUserHandler());
         adminMainView.getAdminCreateMembersView().addClickHandler(new CreateUser());
+        adminMainView.getAdminMembersView().addClickHandler(new DeleteUserHandler());
     }
 
     public void loadUser(User currentUser) {
@@ -73,6 +76,8 @@ public class AdminController {
                 adminMainView.changeView(adminMainView.getAdminMembersView());
             } else if (event.getSource() == adminMainView.getNewUserBtn()) {
                 adminMainView.changeView(adminMainView.getAdminCreateMembersView());
+            } else if (event.getSource() == adminMainView.getStatsBtn()) {
+                adminMainView.changeView(adminMainView.getAdminStatisticsView());
             }
         }
 
@@ -146,7 +151,9 @@ public class AdminController {
     class DeleteUserHandler implements ActionCell.Delegate<User> {
         @Override
         public void execute(User user) {
+            Window.alert("test");
 
+/*
             //Admin bliver spurgt om han er sikker på at han vil slette brugeren
             boolean deleteUser = Window.confirm("Er du sikker på at du vil slette " + user.getName() + " som bruger?");
 
@@ -173,6 +180,7 @@ public class AdminController {
             } else {
                 Window.alert("Brugeren blev ikke slettet");
             }
+            */
         }
     }
 

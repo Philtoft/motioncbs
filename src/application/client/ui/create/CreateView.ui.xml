@@ -23,9 +23,9 @@
                 <g:TextBox styleName="textInput" ui:field="age"/>
 
             <g:FlowPanel>
-                <g:Label text="Gender"/>
-                <g:RadioButton name="genderSelection" text="Male" ui:field="genderMaleBtn"/>
-                <g:RadioButton name="genderSelection" text="Female" ui:field="genderFemaleBtn"/>
+                <g:Label text="Køn"/>
+                <g:RadioButton name="genderSelection" text="Mand" ui:field="genderMaleBtn"/>
+                <g:RadioButton name="genderSelection" text="Kvinde" ui:field="genderFemaleBtn"/>
             </g:FlowPanel>
 
             <g:FlowPanel>

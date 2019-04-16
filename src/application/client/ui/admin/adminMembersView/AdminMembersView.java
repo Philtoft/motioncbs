@@ -212,24 +212,18 @@ public class AdminMembersView extends Composite {
 
 
         // Delete users
-
-        Column<User, User> deleteUserColumn = new Column<User, User>(new ActionCell<User>("Delete", actionCell)) {
+        ActionCell<User> deleteUserColumn = new ActionCell<User>("Delete", actionCell);
+        Column<User, User> joinColumn = new Column<User, User>(deleteUserColumn) {
             @Override
             public User getValue(User user) {
                 return user;
             }
         };
 
-//        ActionCell<User> deleteUserCell = new ActionCell<User>("Delete user", actionCell);
-//        Column<User, User> joinColumn = new Column<User, User>(deleteUserCell) {
-//            @Override
-//            public User getValue(User user) {
-//                return user;
-//            }
-//        };
 
-        dataGrid.addColumn(deleteUserColumn, "Delete");
-        dataGrid.setColumnWidth(deleteUserColumn, 3, Style.Unit.PX);
+
+        dataGrid.addColumn(joinColumn, "Delete");
+        dataGrid.setColumnWidth(joinColumn, 3, Style.Unit.PX);
 
     }
 
