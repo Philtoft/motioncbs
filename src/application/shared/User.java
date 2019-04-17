@@ -4,10 +4,10 @@ import com.google.gwt.user.client.rpc.IsSerializable;
 
 public class User implements IsSerializable {
 
-    private int id, membertypeId;
-    private String fname, lname, email, password, zipCode, phoneNumber, gender, age;
+    private int id, membertypeId, age, zipCode, phoneNumber;
+    private String fname, lname, email, password, gender;
 
-    public User (String fname, String lname, String email, String password, String zipCode, String phoneNumber, int membertypeId, String gender, String age) {
+    public User (String fname, String lname, String email, String password, int zipCode, int phoneNumber, int membertypeId, String gender, int age) {
         this.fname = fname;
         this.lname = lname;
         this.email = email;
@@ -77,19 +77,19 @@ public class User implements IsSerializable {
         this.membertypeId = membertypeId;
     }
 
-    public String getPhoneNumber() {
+    public int getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
+    public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getZipCode() {
+    public int getZipCode() {
         return zipCode;
     }
 
-    public void setZipCode(String zipCode) {
+    public void setZipCode(int zipCode) {
         this.zipCode = zipCode;
     }
 
@@ -101,11 +101,11 @@ public class User implements IsSerializable {
         this.gender = gender;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 

@@ -2,6 +2,7 @@ package application.client.ui.admin.adminMembersView;
 
 import application.shared.User;
 import com.google.gwt.cell.client.ActionCell;
+import com.google.gwt.cell.client.NumberCell;
 import com.google.gwt.cell.client.TextCell;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.Style;
@@ -12,6 +13,7 @@ import com.google.gwt.user.cellview.client.Column;
 import com.google.gwt.user.cellview.client.ColumnSortEvent;
 import com.google.gwt.user.cellview.client.DataGrid;
 import com.google.gwt.user.cellview.client.SimplePager;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.view.client.ListDataProvider;
@@ -127,20 +129,20 @@ public class AdminMembersView extends Composite {
         dataGrid.setColumnWidth(gender, 1, Style.Unit.PX);
 
         // Adresse
-        Column<User, String> address = new Column<User, String>(new TextCell()) {
+            Column<User, String> address = new Column<User, String>(new TextCell()) {
             @Override
             public String getValue(User user) {
-                return user.getZipCode();
+                return Integer.toString(user.getZipCode());
             }
         };
 
-        dataGrid.addColumn(address, "Adresse");
+        dataGrid.addColumn(address, "Post nr.");
         dataGrid.setColumnWidth(address, 2, Style.Unit.PX);
 
         // Phone number
-        Column<User, String> phoneNumber = new Column<User, String>(new TextCell()) {
+        Column<User, Number> phoneNumber = new Column<User, Number>(new NumberCell()) {
             @Override
-            public String getValue(User user) {
+            public Number getValue(User user) {
                 return user.getPhoneNumber();
             }
         };
@@ -200,16 +202,15 @@ public class AdminMembersView extends Composite {
         dataGrid.setColumnWidth(memberType, 2, Style.Unit.PX);
 
         // Alder
-        Column<User, String> age = new Column<User, String>(new TextCell()) {
+        Column<User, Number> age = new Column<User, Number>(new NumberCell()) {
             @Override
-            public String getValue(User user) {
+            public Number getValue(User user) {
                 return user.getAge();
             }
         };
 
         dataGrid.addColumn(age, "Alder");
         dataGrid.setColumnWidth(age, 2, Style.Unit.PX);
-
 
         // Delete users
         ActionCell<User> deleteUserColumn = new ActionCell<User>("Delete", actionCell);
@@ -219,8 +220,6 @@ public class AdminMembersView extends Composite {
                 return user;
             }
         };
-
-
 
         dataGrid.addColumn(joinColumn, "Delete");
         dataGrid.setColumnWidth(joinColumn, 3, Style.Unit.PX);

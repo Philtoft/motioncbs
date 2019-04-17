@@ -214,7 +214,7 @@ button.btn-menu {
 }
 
 /**
- * Style til
+ * Style til statistik
  */
 
 .center-content-stats {
@@ -281,34 +281,13 @@ button.btn-menu {
     background: #ff0000;
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-1 {
-    width: 10%;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-2 {
-    width: 20%;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-3 {
-    width: 30%;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-4 {
-    width: 40%;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-5 {
-    width: 50%;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-6 {
-    width: 80%;
-}
-
-.stats-wrapper .stats-content .stats .row .item.item-7 {
-    width: 90%;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    width: 0;
+    transition: 2s ease;
 }
 
 .stats-wrapper .stats-content .percentage {

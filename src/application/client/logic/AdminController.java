@@ -36,8 +36,6 @@ public class AdminController {
 
         adminMainView.getAdminMembersView().initUsersTable(listProviderUsers);
 
-
-
     }
 
     public void bindHandlers() {
@@ -62,6 +60,7 @@ public class AdminController {
             @Override
             public void onSuccess(ArrayList<User> users) {
                 listProviderUsers.getList().addAll(users);
+                adminMainView.getAdminStatisticsView().statistics(users);
             }
         });
     }
@@ -119,11 +118,11 @@ public class AdminController {
                 user.setLname(lname);
                 user.setEmail(email);
                 user.setPassword(password);
-                user.setZipCode(zipCode);
-                user.setPhoneNumber(phoneNumber);
+                user.setZipCode(Integer.parseInt(zipCode));
+                user.setPhoneNumber(Integer.parseInt(phoneNumber));
                 user.setGender(gender);
                 user.setMembertypeId(memberId);
-                user.setAge(ageString);
+                user.setAge(Integer.parseInt(ageString));
 
                 rpcServiceAsync.createUser(user, new AsyncCallback<Boolean>() {
                     @Override
@@ -151,9 +150,7 @@ public class AdminController {
     class DeleteUserHandler implements ActionCell.Delegate<User> {
         @Override
         public void execute(User user) {
-            Window.alert("test");
 
-/*
             //Admin bliver spurgt om han er sikker på at han vil slette brugeren
             boolean deleteUser = Window.confirm("Er du sikker på at du vil slette " + user.getName() + " som bruger?");
 
@@ -180,7 +177,6 @@ public class AdminController {
             } else {
                 Window.alert("Brugeren blev ikke slettet");
             }
-            */
         }
     }
 

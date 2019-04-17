@@ -164,11 +164,11 @@ public class MainController {
                 user.setLname(lname);
                 user.setEmail(email);
                 user.setPassword(password);
-                user.setZipCode(zipCode);
-                user.setPhoneNumber(phoneNumber);
+                user.setZipCode(Integer.parseInt(zipCode));
+                user.setPhoneNumber(Integer.parseInt(phoneNumber));
                 user.setGender(gender);
                 user.setMembertypeId(memberId);
-                user.setAge(ageString);
+                user.setAge(Integer.parseInt(ageString));
 
                 rpcService.createUser(user, new AsyncCallback<Boolean>() {
                     @Override

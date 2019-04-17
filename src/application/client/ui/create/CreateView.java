@@ -47,7 +47,8 @@ public class CreateView extends Composite {
         email.getElement().setPropertyString("placeholder", "Email");
         email.getElement().setPropertyString("type", "email");
         password.getElement().setPropertyString("placeholder", "Adgangskode");
-        address.getElement().setPropertyString("placeholder", "Adresse");
+        address.getElement().setPropertyString("placeholder", "Post nr");
+        address.getElement().setPropertyString("type", "number");
         phoneNumber.getElement().setPropertyString("placeholder", "Tlf.");
         phoneNumber.getElement().setPropertyString("type", "number");
         age.getElement().setPropertyString("placeholder", "Alder");

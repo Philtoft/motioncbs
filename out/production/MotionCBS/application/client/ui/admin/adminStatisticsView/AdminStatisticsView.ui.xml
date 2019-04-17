@@ -5,7 +5,7 @@
 
         <g:Label text="Medlemsstatistik" styleName="headline" />
         <g:HTMLPanel>
-            <g:Label text="Guld medlemmer" />
+            <g:Label text="Alle medlemmer" />
             <g:HTMLPanel styleName="stats-wrapper">
                 <g:HTMLPanel styleName="age">
                     <g:Label text="70+" />
@@ -19,25 +19,25 @@
                 <g:HTMLPanel styleName="stats-content">
                     <g:HTMLPanel styleName="stats">
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-1"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_7"></g:HTMLPanel>
                         </g:HTMLPanel>
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-2"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_6"></g:HTMLPanel>
                         </g:HTMLPanel>
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-3"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_5"></g:HTMLPanel>
                         </g:HTMLPanel>
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-4"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_4"></g:HTMLPanel>
                         </g:HTMLPanel>
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-5"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_3"></g:HTMLPanel>
                         </g:HTMLPanel>
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-6"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_2"></g:HTMLPanel>
                         </g:HTMLPanel>
                         <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item item-7"></g:HTMLPanel>
+                            <g:HTMLPanel styleName="item" ui:field="item1_1"></g:HTMLPanel>
                         </g:HTMLPanel>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="percentage">

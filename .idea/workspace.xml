@@ -3,14 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="7c10314d-4ca1-4c09-bd80-e64c24d1489a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$CreateUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$CreateUser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$CreateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$CreateUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$DeleteUserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$DeleteUserHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$MenuClickHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController$MenuClickHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$CreateAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/logic/MainController$CreateAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminMembersView/AdminMembersView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/create/CreateView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/create/CreateView.ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/create/CreateView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/client/ui/create/CreateView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/server/RPCServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/server/RPCServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MotionCBS/application/shared/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MotionCBS/application/shared/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/client/logic/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/logic/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/logic/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/logic/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/client/ui/create/CreateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/client/ui/create/CreateView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/shared/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/shared/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/MySampleApplication.css" beforeDir="false" afterPath="$PROJECT_DIR$/war/MySampleApplication.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,26 +50,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java">
+        <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="450">
+              <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#2280#2281#0" expanded="true" />
-                <element signature="e#2294#2295#0" expanded="true" />
-                <element signature="e#2333#2334#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
+        <entry file="file://$PROJECT_DIR$/src/application/client/logic/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="463">
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ForgotPasswordClickHandler#0;class#MainController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +87,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="353">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/war/MySampleApplication.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="134" column="57" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4094#4108#0" expanded="true" />
+                <element signature="e#4195#4196#0" expanded="true" />
+                <element signature="e#4252#4253#0" expanded="true" />
+                <element signature="e#4448#4462#0" expanded="true" />
+                <element signature="e#6549#6563#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,37 +165,37 @@
         <option value="$PROJECT_DIR$/src/application/client/ui/user/userMainView/UserMainView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/login/LoginView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/admin.java" />
-        <option value="$PROJECT_DIR$/src/application/client/ui/create/CreateView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/allMembersView/allMembersView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminFirstView/AdminFirstView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminFirstView/AdminFirstView.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/allMembersView/AllMembersView.ui.xml" />
-        <option value="$PROJECT_DIR$/src/application/shared/User.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/allMembersView/AllMembersView.java" />
-        <option value="$PROJECT_DIR$/src/application/client/ui/ContentPanel.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java" />
-        <option value="$PROJECT_DIR$/src/application/client/logic/MainController.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/login/LoginView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/rpc/RPCServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/application/client/rpc/RPCService.java" />
-        <option value="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml" />
-        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" />
-        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" />
-        <option value="$PROJECT_DIR$/war/MySampleApplication.css" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml" />
         <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/ContentPanel.java" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml" />
+        <option value="$PROJECT_DIR$/src/application/shared/User.java" />
+        <option value="$PROJECT_DIR$/src/application/server/RPCServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/create/CreateView.java" />
+        <option value="$PROJECT_DIR$/src/application/client/logic/MainController.java" />
         <option value="$PROJECT_DIR$/src/application/client/logic/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java" />
+        <option value="$PROJECT_DIR$/war/MySampleApplication.css" />
+        <option value="$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="228" />
-    <option name="y" value="-23" />
-    <option name="width" value="979" />
-    <option name="height" value="1050" />
+    <option name="x" value="877" />
+    <option name="width" value="1690" />
+    <option name="height" value="1410" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -146,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -249,6 +309,15 @@
               <item name="motioncbs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motioncbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motioncbs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,7 +336,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,12 +599,15 @@
       <workItem from="1555149655698" duration="34000" />
       <workItem from="1555160763386" duration="7494000" />
       <workItem from="1555227693799" duration="1941000" />
-      <workItem from="1555402547446" duration="10795000" />
+      <workItem from="1555402547446" duration="16209000" />
+      <workItem from="1555439725214" duration="6405000" />
+      <workItem from="1555487783021" duration="2793000" />
+      <workItem from="1555492042211" duration="3064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150238000" />
+    <option name="totallyTimeSpent" value="167914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,10 +619,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49301675" visible="true" weight="0.25704697" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49301675" visible="true" weight="0.18481518" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -568,13 +639,13 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32960895" />
       <window_info anchor="bottom" id="Application Servers" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50408995" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49591002" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49860334" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49591002" weight="0.25200802" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49954337" weight="0.49799198" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Run" order="14" side_tool="true" weight="0.3784916" />
+      <window_info active="true" anchor="bottom" id="Run" order="14" sideWeight="0.50045663" side_tool="true" visible="true" weight="0.18824701" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -687,17 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/login/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/user/userMainView/UserMainView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -744,56 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/MotionCBS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/ContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/shared/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#2325#2326#0" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/login/LoginView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminCreateMembersView/AdminCreateMembersView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
@@ -829,49 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/RPCServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#close#0;class#RPCServiceImpl#0" />
-            <element signature="method#authorizeUser#0;class#RPCServiceImpl#0" />
-            <element signature="method#createUser#0;class#RPCServiceImpl#0" />
-            <element signature="method#getUsers#0;class#RPCServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/logic/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1244">
-          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#ForgotPasswordClickHandler#0;class#MainController#0" />
-            <element signature="class#CreateAccount#0;class#MainController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="234" column="7" lean-forward="true" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -879,55 +846,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java">
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="403">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml">
+    <entry file="file://$PROJECT_DIR$/src/application/client/MotionCBS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/war/MySampleApplication.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="468">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/ContentPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/login/LoginView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/login/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="511">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMainView/AdminMainView.ui.xml">
+    <entry file="jar://$USER_HOME$/Documents/gwt-2.8.2/gwt-user.jar!/com/google/gwt/user/cellview/client/ColumnSortEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="144">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/RPCServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="135" column="44" lean-forward="true" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#close#0;class#RPCServiceImpl#0" />
+            <element signature="method#authorizeUser#0;class#RPCServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/shared/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+          <folding>
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
+            <element signature="e#2367#2368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/create/CreateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/logic/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ForgotPasswordClickHandler#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/logic/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminMembersView/AdminMembersView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="134" column="57" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4094#4108#0" expanded="true" />
+            <element signature="e#4195#4196#0" expanded="true" />
+            <element signature="e#4252#4253#0" expanded="true" />
+            <element signature="e#4448#4462#0" expanded="true" />
+            <element signature="e#6549#6563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war/MySampleApplication.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/client/ui/admin/adminStatisticsView/AdminStatisticsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
         </state>
       </provider>
     </entry>

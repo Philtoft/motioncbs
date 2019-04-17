@@ -91,10 +91,10 @@ public class RPCServiceImpl extends RemoteServiceServlet implements RPCService {
             createUser.setString(2, user.getLname());
             createUser.setString(3, user.getEmail());
             createUser.setString(4, user.getPassword());
-            createUser.setString(5, user.getZipCode());
-            createUser.setString(6, user.getPhoneNumber());
+            createUser.setInt(5, user.getZipCode());
+            createUser.setInt(6, user.getPhoneNumber());
             createUser.setString(7, user.getGender());
-            createUser.setString(8, user.getAge());
+            createUser.setInt(8, user.getAge());
             createUser.setInt(9, user.getMembertypeId());
 
             int rowsAffected = createUser.executeUpdate();
@@ -130,10 +130,10 @@ public class RPCServiceImpl extends RemoteServiceServlet implements RPCService {
                 user.setLname(resultSet.getString("lname"));
                 user.setEmail(resultSet.getString("email"));
                 user.setPassword(resultSet.getString("password"));
-                user.setZipCode(resultSet.getString("zipCode"));
-                user.setPhoneNumber(resultSet.getString("phoneNumber"));
+                user.setZipCode(resultSet.getInt("zipCode"));
+                user.setPhoneNumber(resultSet.getInt("phoneNumber"));
                 user.setGender(resultSet.getString("gender"));
-                user.setAge(resultSet.getString("age"));
+                user.setAge(resultSet.getInt("age"));
                 user.setMembertypeId(resultSet.getInt("membertype_id"));
 
                 users.add(user);
