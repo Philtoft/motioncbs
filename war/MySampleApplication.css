@@ -235,7 +235,7 @@ button.btn-menu {
 .stats-wrapper {
     display: flex;
     flex-direction: row;
-    width: 500px
+    width: 400px;
 }
 
 .stats-wrapper .age {
@@ -296,4 +296,51 @@ button.btn-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.topstats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.topstats > div:first-child > div:first-child {
+    text-align: center;
+}
+
+.topstats > div:last-child {
+    margin-left: 175px;
+    color: white;
+    padding: 20px;
+    line-height: 2;
+    background: red;
+    border-radius: 5px;
+    margin-top: -25px;
+}
+
+.stats-text-wrapper {
+    padding: 20px;
+    line-height: 2;
+    background: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.substats {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid grey;
+    padding-top: 15px;
+    width: 90%;
+}
+
+.vertical-stat > div:first-child {
+    margin-bottom: 5px;
+}
+
+.vertical-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

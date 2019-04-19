@@ -4,55 +4,211 @@
     <g:HTMLPanel styleName="center-content">
 
         <g:Label text="Medlemsstatistik" styleName="headline" />
-        <g:HTMLPanel>
-            <g:Label text="Alle medlemmer" />
-            <g:HTMLPanel styleName="stats-wrapper">
-                <g:HTMLPanel styleName="age">
-                    <g:Label text="70+" />
-                    <g:Label text="60-69" />
-                    <g:Label text="50-59" />
-                    <g:Label text="40-49" />
-                    <g:Label text="30-39" />
-                    <g:Label text="20-29" />
-                    <g:Label text="15-19" />
+        <g:HTMLPanel styleName="topstats">
+            <g:HTMLPanel>
+                <g:Label text="Alle medlemmer" />
+                <g:HTMLPanel styleName="stats-wrapper">
+                    <g:HTMLPanel styleName="age">
+                        <g:Label text="70+" />
+                        <g:Label text="60-69" />
+                        <g:Label text="50-59" />
+                        <g:Label text="40-49" />
+                        <g:Label text="30-39" />
+                        <g:Label text="20-29" />
+                        <g:Label text="15-19" />
+                    </g:HTMLPanel>
+                    <g:HTMLPanel styleName="stats-content">
+                        <g:HTMLPanel styleName="stats">
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_7"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_6"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_5"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_4"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_3"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_2"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item1_1"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                        </g:HTMLPanel>
+                        <g:HTMLPanel styleName="percentage">
+                            <g:Label text="0%" />
+                            <g:Label text="10%" />
+                            <g:Label text="20%" />
+                            <g:Label text="30%" />
+                            <g:Label text="40%" />
+                            <g:Label text="50%" />
+                        </g:HTMLPanel>
+                    </g:HTMLPanel>
                 </g:HTMLPanel>
-                <g:HTMLPanel styleName="stats-content">
-                    <g:HTMLPanel styleName="stats">
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_7"></g:HTMLPanel>
+            </g:HTMLPanel>
+            <g:HTMLPanel>
+                <g:Label text="" ui:field="totalMembers" />
+                <g:Label text="" ui:field="averageAge" />
+            </g:HTMLPanel>
+        </g:HTMLPanel>
+        <g:HTMLPanel styleName="substats">
+            <g:HTMLPanel styleName="vertical-stat">
+                <g:Label text="Bronze medlemer" />
+                <g:HTMLPanel styleName="stats-wrapper">
+                    <g:HTMLPanel styleName="age">
+                        <g:Label text="70+" />
+                        <g:Label text="60-69" />
+                        <g:Label text="50-59" />
+                        <g:Label text="40-49" />
+                        <g:Label text="30-39" />
+                        <g:Label text="20-29" />
+                        <g:Label text="15-19" />
+                    </g:HTMLPanel>
+                    <g:HTMLPanel styleName="stats-content">
+                        <g:HTMLPanel styleName="stats">
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_7"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_6"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_5"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_4"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_3"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_2"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item2_1"></g:HTMLPanel>
+                            </g:HTMLPanel>
                         </g:HTMLPanel>
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_6"></g:HTMLPanel>
-                        </g:HTMLPanel>
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_5"></g:HTMLPanel>
-                        </g:HTMLPanel>
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_4"></g:HTMLPanel>
-                        </g:HTMLPanel>
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_3"></g:HTMLPanel>
-                        </g:HTMLPanel>
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_2"></g:HTMLPanel>
-                        </g:HTMLPanel>
-                        <g:HTMLPanel styleName="row">
-                            <g:HTMLPanel styleName="item" ui:field="item1_1"></g:HTMLPanel>
+                        <g:HTMLPanel styleName="percentage">
+                            <g:Label text="0%" />
+                            <g:Label text="10%" />
+                            <g:Label text="20%" />
+                            <g:Label text="30%" />
+                            <g:Label text="40%" />
+                            <g:Label text="50%" />
                         </g:HTMLPanel>
                     </g:HTMLPanel>
-                    <g:HTMLPanel styleName="percentage">
-                        <g:Label text="0%" />
-                        <g:Label text="10%" />
-                        <g:Label text="20%" />
-                        <g:Label text="30%" />
-                        <g:Label text="40%" />
-                        <g:Label text="50%" />
-                        <g:Label text="60%" />
-                        <g:Label text="70%" />
-                        <g:Label text="80%" />
-                        <g:Label text="90%" />
-                        <g:Label text="100%" />
+                </g:HTMLPanel>
+                <g:HTMLPanel styleName="stats-text-wrapper">
+                    <g:Label ui:field="totalBronzeMembers" text="" />
+                    <g:Label ui:field="averageBronzeAge" text="" />
+                </g:HTMLPanel>
+            </g:HTMLPanel>
+            <g:HTMLPanel styleName="vertical-stat">
+                <g:Label text="Sølv medlemmer" />
+                <g:HTMLPanel styleName="stats-wrapper">
+                    <g:HTMLPanel styleName="age">
+                        <g:Label text="70+" />
+                        <g:Label text="60-69" />
+                        <g:Label text="50-59" />
+                        <g:Label text="40-49" />
+                        <g:Label text="30-39" />
+                        <g:Label text="20-29" />
+                        <g:Label text="15-19" />
                     </g:HTMLPanel>
+                    <g:HTMLPanel styleName="stats-content">
+                        <g:HTMLPanel styleName="stats">
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_7"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_6"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_5"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_4"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_3"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_2"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item3_1"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                        </g:HTMLPanel>
+                        <g:HTMLPanel styleName="percentage">
+                            <g:Label text="0%" />
+                            <g:Label text="10%" />
+                            <g:Label text="20%" />
+                            <g:Label text="30%" />
+                            <g:Label text="40%" />
+                            <g:Label text="50%" />
+                        </g:HTMLPanel>
+                    </g:HTMLPanel>
+                </g:HTMLPanel>
+                <g:HTMLPanel styleName="stats-text-wrapper">
+                    <g:Label ui:field="totalSiverMembers" text="" />
+                    <g:Label ui:field="averageSilverAge" text="" />
+                </g:HTMLPanel>
+            </g:HTMLPanel>
+            <g:HTMLPanel styleName="vertical-stat">
+                <g:Label text="Guld medlemmer" />
+                <g:HTMLPanel styleName="stats-wrapper">
+                    <g:HTMLPanel styleName="age">
+                        <g:Label text="70+" />
+                        <g:Label text="60-69" />
+                        <g:Label text="50-59" />
+                        <g:Label text="40-49" />
+                        <g:Label text="30-39" />
+                        <g:Label text="20-29" />
+                        <g:Label text="15-19" />
+                    </g:HTMLPanel>
+                    <g:HTMLPanel styleName="stats-content">
+                        <g:HTMLPanel styleName="stats">
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_7"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_6"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_5"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_4"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_3"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_2"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel styleName="row">
+                                <g:HTMLPanel styleName="item" ui:field="item4_1"></g:HTMLPanel>
+                            </g:HTMLPanel>
+                        </g:HTMLPanel>
+                        <g:HTMLPanel styleName="percentage">
+                            <g:Label text="0%" />
+                            <g:Label text="10%" />
+                            <g:Label text="20%" />
+                            <g:Label text="30%" />
+                            <g:Label text="40%" />
+                            <g:Label text="50%" />
+                        </g:HTMLPanel>
+                    </g:HTMLPanel>
+                </g:HTMLPanel>
+                <g:HTMLPanel styleName="stats-text-wrapper">
+                    <g:Label ui:field="totalGoldMembers" text="" />
+                    <g:Label ui:field="averageGoldAge" text="" />
                 </g:HTMLPanel>
             </g:HTMLPanel>
         </g:HTMLPanel>

@@ -140,10 +140,10 @@ public class AdminMembersView extends Composite {
         dataGrid.setColumnWidth(address, 2, Style.Unit.PX);
 
         // Phone number
-        Column<User, Number> phoneNumber = new Column<User, Number>(new NumberCell()) {
+        Column<User, String> phoneNumber = new Column<User, String>(new TextCell()) {
             @Override
-            public Number getValue(User user) {
-                return user.getPhoneNumber();
+            public String getValue(User user) {
+                return Integer.toString(user.getPhoneNumber());
             }
         };
 
